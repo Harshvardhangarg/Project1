@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    color: #85ddec;
+    
+    background-color: #000000;
+    clip-path: polygon(100% 0%, 100% 77%, 50 100%, 0 0);
+    position: relative;
+}
+a{text-decoration: none;
+
+}
+a:hover{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.nav-item a{
+    color: #080808!important;
+     
+}
+p{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+}
+.header-section{
+    width:100%;
+    height:inherit;
+    color: rgb(144, 247, 238);
+    text-align: center;
+    position: relative;
+    
+
+
+}
+.center-div{
+    width: 100%;
+    height: auto;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+
+}
+.header-buttons a{
+    border: 1px solid #00a6f3;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #42bbeb;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    
+
+}
+.header-buttons a:hover{
+    color: #06313b;
+    background:rgb(255, 255, 255);
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+.center-div p{
+    font-size: 1.3rem;
+    padding: 10px 0 20px 0;
+    color: #00eeff;
+}
+span{
+    font-weight: 1000;
+}
+/************* left side of the blog style starts*/
+.blog_left__divh1 {
+    font-family: var(--title);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.blog_left__div .blog_title {
+    font-weight: 100;
+    font-size: 2.2rem;
+    color: #7386f3;
+}
+
+.blog_left__div p span {
+    color: #130081;
+}
+
+.left_div_btns {
+    margin-top: 3rem;
+    transition: var(--eff);
+    
+    
+}
+
+.blog_left__div .left_div__like {
+    color: black;
+    border-width: .2rem;
+    font-size: var(--btn-font);
+    transition: var(--eff);
+    padding: .8rem 2rem;
+    background-color: rgb(70, 222, 241);
+    border-color: var(--btn-color);
+    font-family: var(--title);
+}
+
+
+
+.thapa_show {
+    margin: 20px 0;
+    transition: var(--eff);
+    display: block;
+}
+.right_side_img {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    border: solid rgb(0, 0, 0);
+}
+.servicediv h1{
+    color:#03207e;
+    font-weight: bold;
+}
+.serviceffers{
+    background:#e6e6e7;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+.headings{
+    margin-bottom: 50px;
+}
+
+#footer{
+    background:#000000;
+    padding : 0 0 30px 0;
+    color: #eee;
+    font-size:14px;
+
+}
+#footer.footer-top{
+    background:#0b0b0c;
+    padding: 60px 0 30px 0;
+}
+#footer .footer-top .footer-info{
+    margin-bottom: 30px;
+    
+
+}
+#footer .footer-top .footer-info h3{
+    font-size:34px;
+    margin:0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-family: "Montserrat",sans-serif;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 3px;
+    
+}
+#footer .footer-top .footer-info ul a{
+    font-size:13px;
+    margin-bottom:0 ;
+    line-height: 24px;
+    font-family: "Montserrat",sans-serif;
+    color: #fff;
+}
+#footer .footer-top .social-links a{
+    color:#fff;
+    font-size:18px;
+    background: #2c2c2c;
+    display:inline-block;
+    line-height: 1;
+    padding:8px 0;
+    margin-right:4px;
+    border-radius:50%;
+    text-align: center;
+    width: 36px;
+    height: 36;
+    transition: 0.3s;
+}
+#footer .footer-top h4{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 10px;
+}
+#footer .footer-top .footer-links{
+    margin-bottom: 30px;
+    
+}
+#footer .footer-top .footer-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#footer .footer-top .footer-links ul li{
+    padding: 8px 0;
+
+}
+#footer .footer-top .footer-links ul li:first-child{
+    padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a{
+    color:#fff;
+}
+#footer .footer-top .footer-contact{
+    margin-bottom: 30px;
+}
+#footer .footer-top .footer-contact p{
+    line-height: 26px;
+}
+
+#footer .footer-top .footer-newsletter{
+    margin-bottom: 30px;
+}
+#footer .footer-top .footer-contact input[type="email"]{
+    border: 0;
+    padding: 6px 8px;
+    width: 65%;
+}
+#footer .footer-top .footer-contact input[type="submit"]{
+    background:#4e4e4e;
+    border:0;
+    padding : 6px 0;
+    width: 35%;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+    text-align: center;
+    cursor: pointer;
+}
+#myBtn{
+    /*display: none;*/
+    position:fixed;
+    bottom:20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: #fff;
+    background:#00abff;
+    padding:10px;
+    border-radius: 10px;
+}
+#myBtn:hover{
+    background:#0515fc
+}
+
+.right_div_post {
+    background: #fff;
+    box-shadow: 0 1rem 1rem -1rem rgba(0, 0, 0, 0.4);
+}
+
+.right_sub__div {
+    background: #fff;
+}
+
+.right_sub__div .row {
+    margin-bottom: 2rem;
+    
+}
+
+.right_sub__div .row:last-child {
+    margin-bottom: 0;
+}
+
+.row>.right_div_post {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
